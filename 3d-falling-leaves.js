@@ -46,7 +46,7 @@
         speedC: 2,          // Speed of leaves
         rotation: 1,        // Define rotation of leaves
         rotationTrue: 0,    // Whether leaves rotate (1) or not (0)
-        numberOfLeaves: 25, // Number of leaves
+        numberOfLeaves: 40, // Number of leaves
         size: 55,           // General size of leaves, final size is calculated randomly (with this number as general parameter)
         cycleSpeed: 30      // Animation speed (Inverse frames per second) (10-100)
     }

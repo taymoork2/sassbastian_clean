@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'comic-neue';
+    src: url('comicneue/ComicNeue-Bold-Oblique.eot');
+    src: url('comicneue/ComicNeue-Bold-Oblique.eot#iefix') format('embedded-opentype'),
+         url('comicneue/ComicNeue-Bold-Oblique.woff') format('woff'),
+         url('comicneue/ComicNeue-Bold-Oblique.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
 	margin: 0;
 }
@@ -8,6 +18,7 @@ html, body {
     height:100%;
 	color: white;
 	overflow: hidden;
+	font-family: 'comic-neue' !important;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.004) !important;
 	-webkit-font-smoothing: antialiased !important;
 }
@@ -23,4 +34,20 @@ body {
 	height: 100%;
 	display: block;
 	background: rgba(0, 0, 0, .5);
+	z-index: -1000;
+}
+
+.vertical-container {
+	display: -webkit-flex;
+	display: flex;
+  	height: 100vh;
+}
+
+.vertically-centered {
+	margin: auto;
+}
+
+#gfy {
+	color: white;
+	font-family: 'comic-neue' !important;
 }
