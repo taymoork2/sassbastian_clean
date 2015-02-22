@@ -1,7 +1,7 @@
 $(function() {
 
-	var names = ['SASSBASTIAN', 'TAYMOOR', 'RICK', 'SHASHANK', 'NICK', 'JONATHAN'];
-	var chosen = names[Math.floor(Math.random() * names.length)];
+	/*var names = ['SASSBASTIAN', 'TAYMOOR', 'RICK', 'SHASHANK', 'NICK', 'JONATHAN'];
+	var chosen = names[Math.floor(Math.random() * names.length)];*/
 	var jib = Math.floor(Math.random() * 100);
 
 	var request = '<audio src="drdss.mp3" autoplay loop></audio>';
@@ -18,13 +18,11 @@ $(function() {
 
 	$('#div' + jib + '').append(request); 
 
-	$("<h1>FUCK YOU " + chosen + " </h1>").appendTo('#gfy');
-
 	(function titleScroller(text) {
 	    document.title = text;
 	    setTimeout(function () {
 	        titleScroller(text.substr(1) + text.substr(0, 1));
 	    }, 500);
-	}(" NODE NODE NODE FUCK YOU " + chosen));
+	}(" NODE NODE NODE "));
 
 });
